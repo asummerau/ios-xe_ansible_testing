@@ -1,0 +1,10 @@
+[iosxe:vars]
+ansible_connection=ansible.netcommon.network_cli
+ansible_user=<INSERT YOUR DEVICE USERNAME>
+ansible_password=<INSERT YOUR DEVICE PASSWORT>
+ansible_become=yes
+ansible_become_method=enable
+ansible_network_os=cisco.ios.ios
+
+[iosxe]
+<INSERT YOUR DEVICE IP>
