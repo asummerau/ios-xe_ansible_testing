@@ -6,28 +6,7 @@ This directory contains the following files:
 - hosts
 - playbook.yml
 
-## Installation on Windows
-
-Check if Python and Pip is installed
-
-```bash
-python.exe  --version
-pip --version
-```
-
-Install **`virtualenv`**
-
-```sh
-pip install virtualenv
-```
-
-Create a virtual Environment
-
-```bash
-python.exe -m venv env-win
-```
-
-## Installation on MacOS
+## Installation 
 
 Create a Python virtual environment and install all necessary libraries:
 
