@@ -1,12 +1,14 @@
 # Cisco IOS-XE Setup with Ansible
 
-This directory contains the following files:
+This GitHub repository demonstrates how to run a simple Ansible playbook.It provides an overview of the necessary components, commands for execution, and instructions for installing Ansible.
 
-- ansible.cfg
-- hosts
-- playbook.yml
+The directory contains the following files:
 
-## Installation 
+- `ansible.cfg`: Configuration file for Ansible settings, such as paths to Python interpreters.
+- `hosts`: Inventory file that lists the managed nodes (e.g., network devices) and their connection details.
+- `playbook.yml`: Ansible playbook file that contains the automation tasks to be executed on the managed nodes.
+
+## Installation
 
 Create a Python virtual environment and install all necessary libraries:
 
