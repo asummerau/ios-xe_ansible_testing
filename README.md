@@ -14,6 +14,7 @@ Create a Python virtual environment and install all necessary libraries:
 python3 -m venv env
 source env/bin/activate
 (env) pip3 install ansible
+(env) pip3 install paramiko
 ```
 
 Verify the installation by checking the version of Ansible:
