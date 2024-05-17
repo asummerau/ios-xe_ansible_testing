@@ -1,6 +1,6 @@
 # Cisco IOS-XE Setup with Ansible
 
-This GitHub repository demonstrates how to run a simple Ansible playbook.It provides an overview of the necessary components, commands for execution, and instructions for installing Ansible.
+This GitHub repository demonstrates how to run a simple Ansible playbook. It provides an overview of the necessary components, commands for execution, and instructions for installing Ansible.
 
 The directory contains the following files:
 
@@ -25,19 +25,20 @@ Verify the installation by checking the version of Ansible:
 (env) ansible --version
 ```
 
-Update Path to your Python interpeter into your ansible.cfg file
+Update the path to your Python interpreter in your ansible.cfg file:
 
 ```bash
 (env) echo "interpreter_python=$(which python)" >> ansible.cfg
 ```
 
-Execute the Ansible Playbook
+Edit the `hosts` file to add your device details. Specifically, replace `<INSERT YOUR DEVICE USERNAME>`, `<INSERT YOUR DEVICE PASSWORD>`, and `<INSERT YOUR DEVICE IP>` with your actual device credentials and IP address.
 
+Execute the Ansible playbook:
 ```bash
 (env) ansible-playbook -i hosts playbook.yml
 ```
 
-To exit the virtual environment use:
+To exit the virtual environment, use:
 
 ```bash
 (env) deactivate
